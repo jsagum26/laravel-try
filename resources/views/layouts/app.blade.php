@@ -8,7 +8,7 @@
     <title>Laravel Demo for BSIT 3A</title>
 </head>
 <body>
-    <main>
+    <!-- <main>
         <div class="w-100 bg-dark">
             <h1 class="text-white">Laravel</h1>
         </div>
@@ -17,7 +17,10 @@
                 @yield('content')
             </div>
         </div>
-    </main>
+    </main> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha512-EG++JPXevM9zNXYPPRo2G+qFY6OuQivci8L7/8HMfGjSbbsoFywHdHq/lLgSk1XIZNwzxxnE0mUGJxVoSsoUgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    @include('components.header')
+    @include('components.sidebar')
+    @include('components.mains')
 </body>
 </html>
